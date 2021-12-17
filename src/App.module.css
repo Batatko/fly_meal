@@ -1,0 +1,14 @@
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    padding: 20px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}

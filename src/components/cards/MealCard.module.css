@@ -1,0 +1,88 @@
+.card {
+    display: flex;
+    justify-content:space-evenly;
+    padding: 10px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.image-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-container div{
+    width: 280px;
+    height: 280px;
+    background-size: cover !important;
+    border-radius: 5px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.content div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.drinks-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.drink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.drink img {
+    width: 50px;
+    height: 50px;
+}
+
+.drink:hover {
+    cursor: pointer;
+}
+
+.button-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.price-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

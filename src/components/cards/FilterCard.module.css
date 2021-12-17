@@ -1,0 +1,12 @@
+.card-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

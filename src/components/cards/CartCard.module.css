@@ -1,0 +1,50 @@
+.card-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.person {
+  display: flex;
+  justify-content: center;
+}
+
+.person:hover {
+  cursor: pointer;
+}
+
+.person p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.total {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
